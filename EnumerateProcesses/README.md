@@ -33,6 +33,6 @@ So when compiling with the library, the g++ compiler required print_procs.cpp be
 Compiling without the library, with all the source files in one folder:
 `g++ -static proc_class.cpp enumerate_processes.cpp print_procs.cpp -pthread -o print_procs`
 
-   
+## Author
 Robert Abraham
 Robert.Abraham@gmail.com
