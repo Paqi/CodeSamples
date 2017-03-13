@@ -19,8 +19,8 @@ class Proc {
     int process_id;
     std::string process_name;
 
-    //compare_nocase could easily be decoupled from this->class, but it's fine
-    //here for the purposes of this->exercise. 
+    //compare_nocase could easily be decoupled from this class, but it's fine
+    //here for the purposes of this exercise. 
     int compare_nocase (std::string, std::string); 
 
   public:

@@ -31,7 +31,7 @@ int main()
    pthread_t tid1, tid2;
    list<Proc>::iterator it;
    int err;
-   //set the strucks pointer to the callback function
+   //set the structs pointer to the callback function
    enum_arg.cb_pointer = callback;
    
    //cast into a void pointer for pthread_create
